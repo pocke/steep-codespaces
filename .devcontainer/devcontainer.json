@@ -1,6 +1,12 @@
 {
   "updateContentCommand": "bundle install",
   "customizations": {
+    "codespaces": {
+      "openFiles": [
+        "lib/main.rb",
+        "sig/main.rbs"
+      ]
+    },
     "vscode": {
       "extensions": [
         "rebornix.Ruby",

@@ -1,8 +1,8 @@
 D = Steep::Diagnostic
 
 target :lib do
-  signature "./"
-  check "./"
+  signature "sig"
+  check "lib"
 
   configure_code_diagnostics(D::Ruby.all_error)
   # configure_code_diagnostics(D::Ruby.strict)       # `strict` diagnostics setting

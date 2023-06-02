@@ -1,0 +1,3 @@
+class Greeting
+  def self.hello: (String msg) -> void
+end
