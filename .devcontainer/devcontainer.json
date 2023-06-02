@@ -1,0 +1,12 @@
+{
+  "updateContentCommand": "bundle install",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.Ruby",
+        "soutaro.steep-vscode",
+        "soutaro.rbs-syntax"
+      ]
+    }
+  }
+}
